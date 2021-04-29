@@ -2,7 +2,7 @@ spring:
   datasource:
     username: spring-admin
     password: admin@20
-    url: jdbc:mysql://localhost:3306/spring
+    url: jdbc:mysql://localhost:3306/spring?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
   jpa:
     hibernate:
       ddl-auto: none
